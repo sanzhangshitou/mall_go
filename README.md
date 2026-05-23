@@ -197,4 +197,4 @@ go mod tidy                    # 整理依赖
 
 ## 许可证
 
-MIT
+[MIT](./LICENSE)
