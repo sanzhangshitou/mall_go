@@ -1,0 +1,23 @@
+# 统一换行符，避免 Windows/Linux 混用
+* text=auto eol=lf
+
+# Go
+*.go text eol=lf diff=golang
+
+# 二进制文件不转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.zip binary
+*.tar binary
+*.gz binary
+
+# 视为 vendored，PR 默认折叠
+go.sum linguist-generated=true
+vendor/ linguist-vendored=true
